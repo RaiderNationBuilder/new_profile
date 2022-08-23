@@ -1,12 +1,8 @@
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faLinkedin,
-  faGithub,
-} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faDna, faAt, faFile } from '@fortawesome/free-solid-svg-icons'
-import { NavLink, Link } from 'react-router-dom'
-
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
